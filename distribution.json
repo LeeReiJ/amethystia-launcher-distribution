@@ -5,7 +5,6 @@
     "smallImageText": "My Server",
     "smallImageKey": "seal-circle"
   },
-  "rss": "https://github.com/LeeReiJ/amethystia-launcher-distribution/releases.atom",
   "servers": [
     {
       "id": "MyServer-1.21.4",
