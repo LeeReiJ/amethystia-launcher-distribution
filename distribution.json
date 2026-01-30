@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "MyServer-1.21.4",
-      "name": "My Awesome Server",
-      "description": "The best Minecraft server ever!",
+      "name": "Amesthytia",
+      "description": "아메시스티아 마인크래프트 서버!",
       "icon": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/icon.png",
       "version": "1.0.0",
-      "address": "play.myserver.com:25565",
+      "address": "amethystia.minecraft.best",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "Join our Discord!",
