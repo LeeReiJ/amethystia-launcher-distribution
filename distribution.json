@@ -5,13 +5,13 @@
     "smallImageText": "My Server",
     "smallImageKey": "seal-circle"
   },
-  "rss": "https://github.com/YOUR_USERNAME/my-launcher-distribution/releases.atom",
+  "rss": "https://github.com/LeeReiJ/amethystia-launcher-distribution/releases.atom",
   "servers": [
     {
       "id": "MyServer-1.21.4",
       "name": "My Awesome Server",
       "description": "The best Minecraft server ever!",
-      "icon": "https://raw.githubusercontent.com/YOUR_USERNAME/my-launcher-distribution/main/icon.png",
+      "icon": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/icon.png",
       "version": "1.0.0",
       "address": "play.myserver.com:25565",
       "minecraftVersion": "1.21.4",
