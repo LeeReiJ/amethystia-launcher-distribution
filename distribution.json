@@ -23,21 +23,12 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraft:client:1.21.4@jar",
-          "name": "Minecraft Client",
-          "type": "Version",
+          "id": "1.21.4-fabric",
+          "name": "Minecraft 1.21.4 (Fabric)",
+          "type": "VersionManifest",
           "artifact": {
             "size": 0,
-            "url": "https://piston-meta.mojang.com/v1/packages/f3c6c87f98e02c5b64e5e3aca67289e0f8f3b4b6/client.jar"
-          }
-        },
-        {
-          "id": "net.fabricmc:fabric-loader:0.16.12",
-          "name": "Fabric Loader",
-          "type": "Forge",
-          "artifact": {
-            "size": 0,
-            "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.12/1.0.1/server/jar"
+            "url": "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json"
           }
         },
         {
