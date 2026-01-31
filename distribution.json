@@ -28,7 +28,8 @@
           "type": "Fabric",
           "artifact": {
             "size": 1175348,
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+            "MD5": "12c7e55d62ea2e96e01e0e5d57c85530",
+            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/fabric-loader-0.16.12.jar"
           },
           "subModules": [
             {
@@ -36,198 +37,240 @@
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 0,
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.12/profile/json"
+                "size": 2857,
+                "MD5": "REPLACE_WITH_ACTUAL_MD5",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/versions/1.21.4-fabric-0.16.12.json"
               }
             },
             {
               "id": "org.ow2.asm:asm:9.7.1",
-              "name": "ASM (asm)",
+              "name": "Fabric (asm)",
               "type": "Library",
               "artifact": {
-                "size": 130112,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/asm-9.7.1.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-analysis:9.7.1",
-              "name": "ASM (asm-analysis)",
+              "name": "Fabric (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 35767,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/asm-analysis-9.7.1.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-commons:9.7.1",
-              "name": "ASM (asm-commons)",
+              "name": "Fabric (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 73346,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/asm-commons-9.7.1.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-tree:9.7.1",
-              "name": "ASM (asm-tree)",
+              "name": "Fabric (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 53081,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/asm-tree-9.7.1.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-util:9.7.1",
-              "name": "ASM (asm-util)",
+              "name": "Fabric (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 88607,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/repo/lib/intermediary-1.21.4.jar"
               }
             }
           ]
         },
         {
-          "id": "com.anthonyhilyard:iceberg:1.2.13",
+          "id": "com.anthonyhilyard:iceberg:1.2.13@jar",
           "name": "Iceberg",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 384309,
+            "MD5": "f3a60a6bee522c264e56107ecca2bb82",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Iceberg-1.21.4-fabric-1.2.13.jar"
           }
         },
         {
-          "id": "dev.tomwmth:prism:1.0.10",
+          "id": "generated.fabricmod:prism:1.0.10@jar",
           "name": "Prism",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 61631,
+            "MD5": "66051303e3433bc10796c2c92f57c7da",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Prism-1.21.4-fabric-1.0.10.jar"
           }
         },
         {
-          "id": "com.xaerominimap:xaerosworldmap:1.39.12",
+          "id": "xaero.map:xaeroworldmap:1.39.12@jar",
           "name": "Xaero's World Map",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 972842,
+            "MD5": "ef679250633db54a9c9a228d7dec1251",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/XaerosWorldMap_1.39.12_Fabric_1.21.4.jar"
           }
         },
         {
-          "id": "com.xaerominimap:xaeros_minimap:25.2.10",
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
           "name": "Xaero's Minimap",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 1733101,
+            "MD5": "4d8ed980c7e2df1810a1b629660c5b32",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Xaeros_Minimap_25.2.10_Fabric_1.21.4.jar"
           }
         },
         {
-          "id": "xyz.nikitacartes:caxton:0.6.0-alpha.6",
+          "id": "xyz.flirora:caxton:0.6.0-alpha.6+1.21.4-FABRIC@jar",
           "name": "Caxton",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 4762622,
+            "MD5": "0185bde3e0a96e903df6acf7d44a70ed",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/caxton-0.6.0-alpha.6+1.21.4-FABRIC.jar"
           }
         },
         {
-          "id": "me.shedaniel.cloth:cloth-config:17.0.144",
-          "name": "Cloth Config API",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 1152857,
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/cloth-config-17.0.144-fabric.jar"
           }
         },
         {
-          "id": "com.mrcrayfish:cupboard:2.9",
+          "id": "com.cupboard:cupboard:1.21-2.9@jar",
           "name": "Cupboard",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 23781,
+            "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/cupboard-fabric-1.21-2.9.jar"
           }
         },
         {
-          "id": "traben.entity_model_features:entity_model_features:2.4.1",
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
           "name": "Entity Model Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 448076,
+            "MD5": "9cc1a837a6efdb2b6a1a9551ef0ede02",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/entity_model_features_fabric_1.21.4-2.4.1.jar"
           }
         },
         {
-          "id": "traben.entity_texture_features:entity_texture_features:6.2.10",
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.10@jar",
           "name": "Entity Texture Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 651894,
+            "MD5": "9be40af3c19984cc4cffaf5e3fc2b898",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/entity_texture_features_fabric_1.21.4-6.2.10.jar"
           }
         },
         {
-          "id": "net.fabricmc.fabric-api:fabric-api:0.113.0+1.21.4",
+          "id": "generated.fabricmod:fabric-api:0.113.0+1.21.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 2087179,
+            "MD5": "d077b2d6168aa1e85b4bdabe84256206",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/fabric-api-0.113.0+1.21.4.jar"
           }
         },
         {
-          "id": "net.fabricmc:fabric-language-kotlin:1.13.3+kotlin.2.1.21",
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.3+kotlin.2.1.21@jar",
           "name": "Fabric Language Kotlin",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 7163558,
+            "MD5": "3c186cee540e7f21d8327bed71dd9d6b",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/fabric-language-kotlin-1.13.3+kotlin.2.1.21.jar"
           }
         },
         {
-          "id": "net.irisshaders:iris:1.8.8+mc1.21.4",
-          "name": "Iris Shaders",
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 2682702,
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/iris-fabric-1.8.8+mc1.21.4.jar"
           }
         },
         {
-          "id": "kr.hyfata:koreanpatch:1.9.5+mc1.21.3",
+          "id": "kr.hyfata:koreanpatch:1.9.5+mc1.21.3@jar",
           "name": "Korean Patch",
           "type": "FabricMod",
           "artifact": {
             "size": 0,
+            "MD5": "CALCULATE_THIS",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/koreanpatch-fabric-1.9.5+mc1.21.3.jar"
           }
         },
         {
-          "id": "de.siphalor:libipn:6.5.0",
-          "name": "libIPN",
+          "id": "org.anti_ad.mc:libipn:6.5.0@jar",
+          "name": "LibIPN",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 632940,
+            "MD5": "e2ee689f907727c7b0408581132ebe83",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/libIPN-fabric-1.21.4-6.5.0.jar"
           }
         },
         {
-          "id": "me.flashyreese.reeses-sodium-options:reeses-sodium-options:1.8.2+mc1.21.4",
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.2+mc1.21.4@jar",
           "name": "Reese's Sodium Options",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 81062,
+            "MD5": "fe867d6df4c5946f45ebdf3c1c560735",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/reeses-sodium-options-fabric-1.8.2+mc1.21.4.jar"
           }
         },
         {
-          "id": "net.caffeinemc:sodium:0.6.13+mc1.21.4",
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
+            "size": 1306799,
+            "MD5": "28922a78d1876ee062e3265f10abcc46",
             "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/sodium-fabric-0.6.13+mc1.21.4.jar"
           }
         }
