@@ -23,13 +23,25 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "1.21.4-fabric",
-          "name": "Minecraft 1.21.4 (Fabric)",
-          "type": "VersionManifest",
+          "id": "net.fabricmc:fabric-loader:0.16.12",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
           "artifact": {
-            "size": 0,
-            "url": "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json"
-          }
+            "size": 1175348,
+            "MD5": "12c7e55d62ea2e96e01e0e5d57c85530",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.12",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.12/profile/json"
+              }
+            }
+          ]
         },
         {
           "id": "com.anthonyhilyard:iceberg:1.2.13",
