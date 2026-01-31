@@ -37,7 +37,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 0,
-            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/iceberg-1.21.4-fabric-1.2.13.jar"
+            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Iceberg-1.21.4-fabric-1.2.13.jar"
           }
         },
         {
@@ -46,7 +46,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 0,
-            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/prism-1.21.4-fabric-1.0.10.jar"
+            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Prism-1.21.4-fabric-1.0.10.jar"
           }
         },
         {
@@ -55,7 +55,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 0,
-            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/xaerosworldmap_1.39.12_fabric_1.21.4.jar"
+            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/XaerosWorldMap_1.39.12_Fabric_1.21.4.jar"
           }
         },
         {
@@ -64,7 +64,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 0,
-            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/xaeros_minimap_25.2.10_fabric_1.21.4.jar"
+            "url": "https://raw.githubusercontent.com/LeeReiJ/amethystia-launcher-distribution/main/servers/MyServer-1.21.4/mods/Xaeros_Minimap_25.2.10_Fabric_1.21.4.jar"
           }
         },
         {
