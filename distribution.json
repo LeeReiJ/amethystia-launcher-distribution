@@ -28,7 +28,6 @@
           "type": "Fabric",
           "artifact": {
             "size": 1175348,
-            "MD5": "12c7e55d62ea2e96e01e0e5d57c85530",
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
           },
           "subModules": [
@@ -39,6 +38,51 @@
               "artifact": {
                 "size": 0,
                 "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.12/profile/json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "ASM (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 130112,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "ASM (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35767,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "ASM (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73346,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "ASM (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 53081,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "ASM (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 88607,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             }
           ]
